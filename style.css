@@ -1,0 +1,48 @@
+
+body{
+    background-color: whitesmoke
+   
+}
+P{  
+    font-family: Arial;
+    font-size: 15px;
+    color: black;
+    text-align: justify;
+
+}
+h1{
+    font-family: Arial;
+    font-size: 50px;
+    color: black;
+    text-align: center;}
+h2{
+    font-family: Arial;
+    font-size: 30px;
+    color: black;
+    text-align: justify;
+}
+
+
+img.center {
+    display: block;
+    margin-left: auto;
+
+  
+}
+audio{
+    display: block;
+    margin-right: auto;
+    color:darkolivegreen;
+}
+viedo{
+    display: block;
+    margin-left: auto;
+    color:darkolivegreen;
+    size: medium;
+}
+iframe{
+    display: block;
+    margin-right: auto;
+    color:darkolivegreen;
+    size: medium;
+}
