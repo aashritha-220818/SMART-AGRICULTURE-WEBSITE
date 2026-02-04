@@ -1,21 +1,14 @@
 <html>
 <head> <title> smart agriculture farming</title>
   <link rel="stylesheet" href="style.css">
-  <style>
-    table{
-        width: 80%;
-        color:blueviolet;
-        border-style: dotted;
-        padding: 50px;
-        text-align: center;
-        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxqTVAUZjtpvLiYP1z_DRVXPNNBm3GQpBlww&s");
-        background-repeat: no-repeat;
-        background-size: cover;
-    };
-    
-  </style>
+  
 </head>
 <body>
+    <form action="register.php" method="post">
+        Username: <input type="text" name="username"><br><br>
+        Password: <input type="password" name="password"><br><br>
+        <input type="submit" value="Login">
+    </form>
     <header>
       <h1>Smart Agriculture Farming</h1>
     </header>
@@ -23,18 +16,6 @@
         <img src="https://images.nationalgeographic.org/image/upload/v1638892233/EducationHub/photos/crops-growing-in-thailand.jpg" alt="Smart Agriculture" width="1400" height="400">
         <br>
         <br>
-
-    <form>
-        <label> Username:</label>
-        <input type="text"><br><br>
-        <label> Password:</label>
-        <input type="password"> <br><br>
-        <label> email:</label>
-        <input type="email"><br><br>
-        <label> submit:</label>
-        <input type="submit"><br><br>
-        
-    </form>
     <nav>
         <a href="index.html" >Home</a> |
         <a href="technologies.html">Technologies</a> |
@@ -92,15 +73,17 @@ Market Competitiveness: Adopting smart agriculture practices can give farmers a 
     </video>
    
     <a href="https://farmonaut.com/asia/agriculture-of-india-2025-smart-farming-innovations"> Innovations of Smart Agriculture in India 2025</a>
-<div>
+<div class="">
      <h2> Precision Farming:</h2>
      <p>Precision farming, also known as precision agriculture, is a farming management concept that uses technology to monitor and optimize crop production. It involves the use of GPS, IoT sensors, and data analytics to collect and analyze data on soil conditions, weather patterns, and crop health. This information is then used to make informed decisions about planting, fertilizing, and harvesting crops, leading to increased yields and reduced resource waste.</p>
     <img src="https://d6fiz9tmzg8gn.cloudfront.net/wp-content/uploads/2023/06/Blog5-7.jpg" alt="Precision Farming" width="400" height="300"
 </div>
-<div>
+<div class="text-content">
     <h2>Drones and Aerial Imaging:</h2>
     <p>Drones and aerial imaging are increasingly used in agriculture to monitor crop health, assess field conditions, and provide detailed data for precision farming. These technologies enable farmers to identify issues such as pest infestations or nutrient deficiencies early, allowing for timely interventions.</p>
+</div>
     <a href="https://multiplexdrone.com/drones-for-agriculture/">
+<div class="container">
     <img src="https://www.flyeye.io/wp-content/uploads/2025/02/10-Best-Crop-monitoring-Drones.jpg" alt=" drones" width="400" height="300">
     </a>
 
@@ -131,10 +114,10 @@ Market Competitiveness: Adopting smart agriculture practices can give farmers a 
     </audio>
     <iframe width="600" height="400" src="c:\Users\Aasritha Aalla\Documents\OR\JavaScript_Tasks_Beginners_Updated.pdf" ></iframe>
     <br>
-    <table border='1'>
-        <th> YEAR</th>
-        <th> INNOVAATIONS IN SMART AGRICULTURE</th>
-        <tr> 
+    <table  border= "1" class="center-table">
+        <th>YEAR</th>
+        <th>INNOVAATIONS<th>
+            <tr> 
             <td>
              (1990s-2000s)</td>
              <td>GPS & GIS</td>
@@ -142,7 +125,6 @@ Market Competitiveness: Adopting smart agriculture practices can give farmers a 
         <tr>
             <td> (2000s-2010s)</td>
             <td> IoT Sensors & Drones</td>
-        </tr>
         <tr>
             <td> (2010s-2020s)</td>
             <td> AI & Machine Learning</td>
@@ -151,18 +133,15 @@ Market Competitiveness: Adopting smart agriculture practices can give farmers a 
             <td> (2020s-Present)</td>
             <td> Robotics & Big Data Analytics</td>
         </tr>
+         
     </table>
     <h3>Scientists involved in smart agriculture</h3>
-    <table border='3' style="text-align:center; border-style: dashed; background-color: #e0f2fe; width: 80%; padding:50px;">
-        <th>
-            SCIENTIST NAME
+    <table border="1" class="center-table" >
+           <th> SCIENTIST NAME
         </th>
         <th>
-            CONTRIBUTION
-        </th>
-        <th>
-            YEAR
-        </th>
+            CONTRIBUTION</th>
+        <th> YEAR</th>
         <tr>
             <td>Dr. Raj Khosla</td>
             <td>Pioneered precision agriculture techniques using GPS and remote sensing.</td>

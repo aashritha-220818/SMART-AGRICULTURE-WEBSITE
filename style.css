@@ -1,9 +1,55 @@
 
 body{
-    background-color: whiteggit
-    smoke
+    align
    
 }
+table{
+   border-collapse:collapse;
+   text-align:center;
+   background-color:hsla(120, 100%, 50%, 0.3);
+   border:"1";
+}
+.center-table {
+  margin-left: auto;
+  margin-right: auto;
+  /* Optional: set a specific width to see the centering effect */
+  width: 50%; 
+}
+h3{
+    text-align:left;
+    color:rgb(10,20,40);
+    font-family:Arial;
+    font-size:20px;
+}
+.container {
+    display: flex;         /* Enables Flexbox on the container */
+    align-items: center;   /* Vertically centers the items (image and text) */
+    gap: 20px;             /* Adds space between the image and the text */
+    border: 1px solid #ccc; /* Optional: adds a border to see the div boundaries */
+    padding: 10px;
+}
+
+.image {
+    width: 150px;          /* Adjust image size as needed */
+    height: auto;
+}
+
+.text-content {
+    /* The text will naturally take up the remaining space */
+    /* text-align: right; */ /* Optional: to right-align the text itself */
+}
+
+
+tr:hover{
+    background-color:green;
+}
+
+ form{
+        background-image: url(https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?cs=srgb&dl=pexels-pixabay-531880.jpg&fm=jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align:center;
+    }
 P{  
     font-family: Arial;
     font-size: 15px;
