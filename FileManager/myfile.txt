@@ -1,0 +1,3 @@
+Hello Aashritha!
+Learning PHP File Handling.
+Locked writing successful.
